@@ -1,0 +1,18 @@
+{
+  "ffmpeg_path": "C:\\Users\\asus\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin\\ffmpeg.exe",
+  "output_dir": "./output",
+  "sizes": [576, 768, 1200, 1600, 1920],
+  "encoders": {
+    "default": "libx264",
+    "nvenc": "h264_nvenc",
+    "qsv": "h264_qsv",
+    "amf": "h264_amf",
+    "hevc_nvenc": "hevc_nvenc",
+    "hevc_qsv": "hevc_qsv",
+    "hevc_amf": "hevc_amf",
+    "av1_nvenc": "av1_nvenc",
+    "av1_qsv": "av1_qsv",
+    "av1_amf": "av1_amf"
+  },
+  "preferred_encoder_priority": ["nvenc", "qsv", "amf"]
+}
